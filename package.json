@@ -1,0 +1,25 @@
+{
+  "name": "cordova-plugin-roeyHonig-ObjcPlugin",
+  "version": "1.0.0",
+  "description": "simple boilerPlate for ObjC native code in cordova plugin",
+  "cordova": {
+    "id": "cordova-plugin-roeyHonig-ObjcPlugin",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roeyHonig/cordovaObjcPlugin.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "roeyHonig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roeyHonig/cordovaObjcPlugin/issues"
+  },
+  "homepage": "https://github.com/roeyHonig/cordovaObjcPlugin#readme"
+}

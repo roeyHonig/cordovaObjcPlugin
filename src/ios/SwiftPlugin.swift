@@ -1,4 +1,4 @@
-@objc(ModusEchoSwift) class ModusEchoSwift : CDVPlugin {
+@objc(ObjcPlugin) class ObjcPlugin : CDVPlugin {
   
   func coolMethod(command: CDVInvokedUrlCommand) {
       print("hello, this time from native Swift")

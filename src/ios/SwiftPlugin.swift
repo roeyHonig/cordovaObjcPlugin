@@ -1,3 +1,5 @@
+import PlaceFramework
+
 @objc(ObjcPlugin) class ObjcPlugin : CDVPlugin {
   
    func coolMethod(_ command: CDVInvokedUrlCommand) {
@@ -6,24 +8,21 @@
     var pluginResult = CDVPluginResult(
       status: CDVCommandStatus_ERROR
     )
-    
-    
+   
     print("did something came?: \((command.arguments[0] as! [Any])[0])")
     
     let msg = (command.arguments[0] as! [Any])[0] as? String ?? ""
     print("here is the argument that was recived:  \(msg)")
 
     if msg.characters.count > 0 {
-
-
         
+        Place.presentTheBlueScreen(callingViewController: self.viewController)
+
         pluginResult = CDVPluginResult(
             status: CDVCommandStatus_OK,
-            messageAs: msg
+            messageAs: msg + "also hello from Xcode"
         )
 
-      
-      
     }
 
     self.commandDelegate!.send(
@@ -32,3 +31,4 @@
     )
   }
 }
+

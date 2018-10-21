@@ -12,6 +12,6 @@
       </config-file>
       <source-file src="src/ios/SwiftPlugin.swift" />
       <dependency id="cordova-plugin-add-swift-support" version="1.7.2"/>
-      <framework src="/Users/msapps/Library/Developer/Xcode/DerivedData/PlaceFramework-agzhsnwjrglbfkdybzlmifvfrobc/Build/Products/Release-iphoneos/PlaceFramework.framework" custom="true" embed="true" />
+      <framework src="/src/PlaceFramework.framework" custom="true" embed="true" />
    </platform>
 </plugin>

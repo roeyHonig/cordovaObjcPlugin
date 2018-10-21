@@ -1,0 +1,11 @@
+framework module PlaceFramework {
+  umbrella header "PlaceFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module PlaceFramework.Swift {
+    header "PlaceFramework-Swift.h"
+    requires objc
+}
